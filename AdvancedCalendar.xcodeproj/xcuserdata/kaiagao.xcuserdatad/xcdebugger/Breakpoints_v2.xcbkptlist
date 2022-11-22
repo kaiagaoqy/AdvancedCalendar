@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EDC8F704-13A2-4AAC-A9B6-6F3840CEDC45"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBF56D9D-1F3F-4743-8305-920FAF2486DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/LongPressEventCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "LongPressEventCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8951B081-7A53-4958-96AF-A78F02CC15D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "AllDayViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8951B081-7A53-4958-96AF-A78F02CC15D2 - fff26349e88edc50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.AllDayViewModel.deinit"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "8951B081-7A53-4958-96AF-A78F02CC15D2 - dff276d9eadb1532"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.AllDayViewModel.__deallocating_deinit"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8951B081-7A53-4958-96AF-A78F02CC15D2 - 42919c6e58d08487"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.AllDayViewModel.__allocating_init() -&gt; AdvancedCalendar.AllDayViewModel"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "8951B081-7A53-4958-96AF-A78F02CC15D2 - 8c8b4ed38bc174ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.AllDayViewModel.init() -&gt; AdvancedCalendar.AllDayViewModel"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62AB73F7-C639-49A0-8970-29F200748262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "AllDayViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAC1A509-68C4-4B84-94B8-D4B91624D0A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/EventDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "markComplete(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24854C38-ED2E-47EF-B1D1-626FB6E55111"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "addEvent(event:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "24854C38-ED2E-47EF-B1D1-626FB6E55111 - 1ab393bc0ca7db6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.AllDayViewModel.initiateEvents(completion: (Swift.Array&lt;AdvancedCalendar.AllDayEvent&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "24854C38-ED2E-47EF-B1D1-626FB6E55111 - 1ab393bc0ca7db6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.AllDayViewModel.initiateEvents(completion: (Swift.Array&lt;AdvancedCalendar.AllDayEvent&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "499">
+               </Location>
+               <Location
+                  uuid = "24854C38-ED2E-47EF-B1D1-626FB6E55111 - 41d1edc5c26e54fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AdvancedCalendar.AllDayViewModel.initiateEvents(completion: (Swift.Array&lt;AdvancedCalendar.AllDayEvent&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "261">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "519D1AFB-DE98-49F9-9873-0DC489D43FA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/LongPressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8FF35AB-FE08-4338-93BF-2961B43B83A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "initiateEvents(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42725C95-303B-40AA-B574-BAFA8DBA4B16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/LongPressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "LongPressViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "42725C95-303B-40AA-B574-BAFA8DBA4B16 - 7d148a9d97670488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.LongPressViewController.viewModel.getter : AdvancedCalendar.AllDayViewModel"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/LongPressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "42725C95-303B-40AA-B574-BAFA8DBA4B16 - 78f52cc01ededeaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.LongPressViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AdvancedCalendar.LongPressViewController"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/LongPressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "42725C95-303B-40AA-B574-BAFA8DBA4B16 - c19e707019aaff06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdvancedCalendar.LongPressViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AdvancedCalendar.LongPressViewController&gt;"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/LongPressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "202">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9D64B47-E618-47B9-854D-0E4C66AE66F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/LongPressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3305A812-4854-40A9-B0B5-373885C52533"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "reloadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3305A812-4854-40A9-B0B5-373885C52533 - 14940f116d89b95c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AdvancedCalendar.AllDayEvent&gt;) -&gt; () in AdvancedCalendar.AllDayViewModel.reloadData() -&gt; ()"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  uuid = "3305A812-4854-40A9-B0B5-373885C52533 - 14940f116d89b95c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AdvancedCalendar.AllDayEvent&gt;) -&gt; () in AdvancedCalendar.AllDayViewModel.reloadData() -&gt; ()"
+                  moduleName = "AdvancedCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiagao/Documents/AdvancedCalendar/AdvancedCalendar/Source/LongPressViews/AllDayViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "719">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

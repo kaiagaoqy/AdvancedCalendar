@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94F1F502926DDE600F36B87 /* AdvancedCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94F1F4E2926DDE600F36B87 /* AdvancedCalendar.xcdatamodeld */; };
+		C94F1F522926DDE700F36B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94F1F512926DDE700F36B87 /* Assets.xcassets */; };
+		C94F1F552926DDE700F36B87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94F1F532926DDE700F36B87 /* LaunchScreen.storyboard */; };
+		C94F1F602926DDE800F36B87 /* AdvancedCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F1F5F2926DDE800F36B87 /* AdvancedCalendarTests.swift */; };
+		C94F1F6A2926DDE800F36B87 /* AdvancedCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F1F692926DDE800F36B87 /* AdvancedCalendarUITests.swift */; };
+		C94F1F6C2926DDE800F36B87 /* AdvancedCalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F1F6B2926DDE800F36B87 /* AdvancedCalendarUITestsLaunchTests.swift */; };
+		C98857082929DA4B00427B64 /* JZCalendarWeekView in Frameworks */ = {isa = PBXBuildFile; productRef = C98857072929DA4B00427B64 /* JZCalendarWeekView */; };
+		C988572E292A094400427B64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C988572D292A094400427B64 /* GoogleService-Info.plist */; };
+		C988573D292A266200427B64 /* RootNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988573C292A266200427B64 /* RootNavigationVC.swift */; };
+		C9885777292D35CB00427B64 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C9885776292D35CB00427B64 /* FirebaseAnalytics */; };
+		C9885779292D35CB00427B64 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = C9885778292D35CB00427B64 /* FirebaseAnalyticsOnDeviceConversion */; };
+		C988577B292D35CB00427B64 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C988577A292D35CB00427B64 /* FirebaseAnalyticsSwift */; };
+		C988577D292D35CB00427B64 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C988577C292D35CB00427B64 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		C988577F292D35CB00427B64 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C988577E292D35CB00427B64 /* FirebaseAppCheck */; };
+		C9885781292D35CB00427B64 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C9885780292D35CB00427B64 /* FirebaseAppDistribution-Beta */; };
+		C9885783292D35CB00427B64 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C9885782292D35CB00427B64 /* FirebaseAuth */; };
+		C9885785292D35CB00427B64 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9885784292D35CB00427B64 /* FirebaseAuthCombine-Community */; };
+		C9885787292D35CB00427B64 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C9885786292D35CB00427B64 /* FirebaseCrashlytics */; };
+		C9885789292D35CB00427B64 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C9885788292D35CB00427B64 /* FirebaseDatabase */; };
+		C988578B292D35CB00427B64 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C988578A292D35CB00427B64 /* FirebaseDatabaseSwift */; };
+		C988578D292D35CB00427B64 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = C988578C292D35CB00427B64 /* FirebaseDynamicLinks */; };
+		C988578F292D35CB00427B64 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C988578E292D35CB00427B64 /* FirebaseFirestore */; };
+		C9885791292D35CB00427B64 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9885790292D35CB00427B64 /* FirebaseFirestoreCombine-Community */; };
+		C9885793292D35CB00427B64 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C9885792292D35CB00427B64 /* FirebaseFirestoreSwift */; };
+		C9885795292D35CB00427B64 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C9885794292D35CB00427B64 /* FirebaseFunctions */; };
+		C9885797292D35CB00427B64 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C9885796292D35CB00427B64 /* FirebaseFunctionsCombine-Community */; };
+		C9885799292D35CB00427B64 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C9885798292D35CB00427B64 /* FirebaseInAppMessaging-Beta */; };
+		C988579B292D35CB00427B64 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C988579A292D35CB00427B64 /* FirebaseInAppMessagingSwift-Beta */; };
+		C988579D292D35CB00427B64 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = C988579C292D35CB00427B64 /* FirebaseInstallations */; };
+		C988579F292D35CB00427B64 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = C988579E292D35CB00427B64 /* FirebaseMLModelDownloader */; };
+		C98857A1292D35CB00427B64 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A0292D35CB00427B64 /* FirebaseMessaging */; };
+		C98857A3292D35CB00427B64 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A2292D35CB00427B64 /* FirebasePerformance */; };
+		C98857A5292D35CB00427B64 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A4292D35CB00427B64 /* FirebaseRemoteConfig */; };
+		C98857A7292D35CB00427B64 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A6292D35CB00427B64 /* FirebaseRemoteConfigSwift */; };
+		C98857A9292D35CB00427B64 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A8292D35CB00427B64 /* FirebaseStorage */; };
+		C98857AB292D35CB00427B64 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C98857AA292D35CB00427B64 /* FirebaseStorageCombine-Community */; };
+		C9C5250129273FF200B86CF4 /* LongPressWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E229273FF200B86CF4 /* LongPressWeekView.swift */; };
+		C9C5250229273FF200B86CF4 /* LongPressEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C524E329273FF200B86CF4 /* LongPressEventCell.xib */; };
+		C9C5250329273FF200B86CF4 /* LongPressEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E429273FF200B86CF4 /* LongPressEventCell.swift */; };
+		C9C5250429273FF200B86CF4 /* AllDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E529273FF200B86CF4 /* AllDayViewModel.swift */; };
+		C9C5250529273FF200B86CF4 /* LongPressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E629273FF200B86CF4 /* LongPressViewController.swift */; };
+		C9C5250629273FF200B86CF4 /* AllDayEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E729273FF200B86CF4 /* AllDayEvent.swift */; };
+		C9C5250729273FF200B86CF4 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E829273FF200B86CF4 /* EventCell.swift */; };
+		C9C5250829273FF200B86CF4 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C524E929273FF200B86CF4 /* EventCell.xib */; };
+		C9C5250929273FF200B86CF4 /* DefaultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524EA29273FF200B86CF4 /* DefaultViewModel.swift */; };
+		C9C5250A29273FF200B86CF4 /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524EB29273FF200B86CF4 /* DefaultViewController.swift */; };
+		C9C5250B29273FF200B86CF4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524ED29273FF200B86CF4 /* Extensions.swift */; };
+		C9C5250C29273FF200B86CF4 /* ToastUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524EE29273FF200B86CF4 /* ToastUtil.swift */; };
+		C9C5250D29273FF200B86CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C524EF29273FF200B86CF4 /* Main.storyboard */; };
+		C9C5250E29273FF200B86CF4 /* HourRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F229273FF200B86CF4 /* HourRowHeader.swift */; };
+		C9C5250F29273FF200B86CF4 /* CurrentTimelineAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F329273FF200B86CF4 /* CurrentTimelineAll.swift */; };
+		C9C5251029273FF200B86CF4 /* CustomWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F429273FF200B86CF4 /* CustomWeekView.swift */; };
+		C9C5251129273FF200B86CF4 /* BlackGridLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F529273FF200B86CF4 /* BlackGridLine.swift */; };
+		C9C5251229273FF200B86CF4 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F629273FF200B86CF4 /* CustomViewController.swift */; };
+		C9C5251329273FF200B86CF4 /* DefaultEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F729273FF200B86CF4 /* DefaultEvent.swift */; };
+		C9C5251429273FF200B86CF4 /* OptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524F929273FF200B86CF4 /* OptionsViewModel.swift */; };
+		C9C5251529273FF200B86CF4 /* ExampleOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524FA29273FF200B86CF4 /* ExampleOptionsViewController.swift */; };
+		C9C5251629273FF200B86CF4 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524FB29273FF200B86CF4 /* OptionsTableViewCell.swift */; };
+		C9C5251729273FF200B86CF4 /* OptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C524FC29273FF200B86CF4 /* OptionsTableViewCell.xib */; };
+		C9C5251829273FF200B86CF4 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524FD29273FF200B86CF4 /* ExpandableHeaderView.swift */; };
+		C9C5251929273FF200B86CF4 /* ExpandableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C524FE29273FF200B86CF4 /* ExpandableHeaderView.xib */; };
+		C9C5251B29273FF200B86CF4 /* DefaultWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5250029273FF200B86CF4 /* DefaultWeekView.swift */; };
+		C9C525212927418500B86CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C525202927418500B86CF4 /* AppDelegate.swift */; };
+		C9C52562292742EA00B86CF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C52561292742EA00B86CF4 /* SceneDelegate.swift */; };
+		C9C525A82928D51500B86CF4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C525A72928D51500B86CF4 /* Course.swift */; };
+		C9C525AA2928E43D00B86CF4 /* EventDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C525A92928E43D00B86CF4 /* EventDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C94F1F5C2926DDE800F36B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94F1F3A2926DDE600F36B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94F1F412926DDE600F36B87;
+			remoteInfo = AdvancedCalendar;
+		};
+		C94F1F662926DDE800F36B87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C94F1F3A2926DDE600F36B87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C94F1F412926DDE600F36B87;
+			remoteInfo = AdvancedCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C94F1F422926DDE600F36B87 /* AdvancedCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F1F4F2926DDE600F36B87 /* AdvancedCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdvancedCalendar.xcdatamodel; sourceTree = "<group>"; };
+		C94F1F512926DDE700F36B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C94F1F542926DDE700F36B87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C94F1F562926DDE700F36B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94F1F5B2926DDE800F36B87 /* AdvancedCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F1F5F2926DDE800F36B87 /* AdvancedCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCalendarTests.swift; sourceTree = "<group>"; };
+		C94F1F652926DDE800F36B87 /* AdvancedCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F1F692926DDE800F36B87 /* AdvancedCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCalendarUITests.swift; sourceTree = "<group>"; };
+		C94F1F6B2926DDE800F36B87 /* AdvancedCalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C988572D292A094400427B64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C988573C292A266200427B64 /* RootNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationVC.swift; sourceTree = "<group>"; };
+		C9C524E229273FF200B86CF4 /* LongPressWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressWeekView.swift; sourceTree = "<group>"; };
+		C9C524E329273FF200B86CF4 /* LongPressEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongPressEventCell.xib; sourceTree = "<group>"; };
+		C9C524E429273FF200B86CF4 /* LongPressEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressEventCell.swift; sourceTree = "<group>"; };
+		C9C524E529273FF200B86CF4 /* AllDayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDayViewModel.swift; sourceTree = "<group>"; };
+		C9C524E629273FF200B86CF4 /* LongPressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressViewController.swift; sourceTree = "<group>"; };
+		C9C524E729273FF200B86CF4 /* AllDayEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllDayEvent.swift; sourceTree = "<group>"; };
+		C9C524E829273FF200B86CF4 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		C9C524E929273FF200B86CF4 /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		C9C524EA29273FF200B86CF4 /* DefaultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewModel.swift; sourceTree = "<group>"; };
+		C9C524EB29273FF200B86CF4 /* DefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		C9C524ED29273FF200B86CF4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C9C524EE29273FF200B86CF4 /* ToastUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastUtil.swift; sourceTree = "<group>"; };
+		C9C524F029273FF200B86CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C524F229273FF200B86CF4 /* HourRowHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourRowHeader.swift; sourceTree = "<group>"; };
+		C9C524F329273FF200B86CF4 /* CurrentTimelineAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTimelineAll.swift; sourceTree = "<group>"; };
+		C9C524F429273FF200B86CF4 /* CustomWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWeekView.swift; sourceTree = "<group>"; };
+		C9C524F529273FF200B86CF4 /* BlackGridLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackGridLine.swift; sourceTree = "<group>"; };
+		C9C524F629273FF200B86CF4 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		C9C524F729273FF200B86CF4 /* DefaultEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultEvent.swift; sourceTree = "<group>"; };
+		C9C524F929273FF200B86CF4 /* OptionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewModel.swift; sourceTree = "<group>"; };
+		C9C524FA29273FF200B86CF4 /* ExampleOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOptionsViewController.swift; sourceTree = "<group>"; };
+		C9C524FB29273FF200B86CF4 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		C9C524FC29273FF200B86CF4 /* OptionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsTableViewCell.xib; sourceTree = "<group>"; };
+		C9C524FD29273FF200B86CF4 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		C9C524FE29273FF200B86CF4 /* ExpandableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandableHeaderView.xib; sourceTree = "<group>"; };
+		C9C5250029273FF200B86CF4 /* DefaultWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultWeekView.swift; sourceTree = "<group>"; };
+		C9C525202927418500B86CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9C52561292742EA00B86CF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9C525A72928D51500B86CF4 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C9C525A92928E43D00B86CF4 /* EventDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94F1F3F2926DDE600F36B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9885795292D35CB00427B64 /* FirebaseFunctions in Frameworks */,
+				C988578B292D35CB00427B64 /* FirebaseDatabaseSwift in Frameworks */,
+				C988579B292D35CB00427B64 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				C98857A1292D35CB00427B64 /* FirebaseMessaging in Frameworks */,
+				C9885781292D35CB00427B64 /* FirebaseAppDistribution-Beta in Frameworks */,
+				C9885785292D35CB00427B64 /* FirebaseAuthCombine-Community in Frameworks */,
+				C9885791292D35CB00427B64 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C988577B292D35CB00427B64 /* FirebaseAnalyticsSwift in Frameworks */,
+				C988579F292D35CB00427B64 /* FirebaseMLModelDownloader in Frameworks */,
+				C988577D292D35CB00427B64 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				C9885777292D35CB00427B64 /* FirebaseAnalytics in Frameworks */,
+				C9885793292D35CB00427B64 /* FirebaseFirestoreSwift in Frameworks */,
+				C9885779292D35CB00427B64 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				C988577F292D35CB00427B64 /* FirebaseAppCheck in Frameworks */,
+				C98857A3292D35CB00427B64 /* FirebasePerformance in Frameworks */,
+				C9885799292D35CB00427B64 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				C9885797292D35CB00427B64 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				C9885787292D35CB00427B64 /* FirebaseCrashlytics in Frameworks */,
+				C988579D292D35CB00427B64 /* FirebaseInstallations in Frameworks */,
+				C98857A5292D35CB00427B64 /* FirebaseRemoteConfig in Frameworks */,
+				C98857A9292D35CB00427B64 /* FirebaseStorage in Frameworks */,
+				C9885789292D35CB00427B64 /* FirebaseDatabase in Frameworks */,
+				C98857AB292D35CB00427B64 /* FirebaseStorageCombine-Community in Frameworks */,
+				C98857082929DA4B00427B64 /* JZCalendarWeekView in Frameworks */,
+				C9885783292D35CB00427B64 /* FirebaseAuth in Frameworks */,
+				C988578D292D35CB00427B64 /* FirebaseDynamicLinks in Frameworks */,
+				C988578F292D35CB00427B64 /* FirebaseFirestore in Frameworks */,
+				C98857A7292D35CB00427B64 /* FirebaseRemoteConfigSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F1F582926DDE800F36B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F1F622926DDE800F36B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94F1F392926DDE600F36B87 = {
+			isa = PBXGroup;
+			children = (
+				C94F1F442926DDE600F36B87 /* AdvancedCalendar */,
+				C94F1F5E2926DDE800F36B87 /* AdvancedCalendarTests */,
+				C94F1F682926DDE800F36B87 /* AdvancedCalendarUITests */,
+				C94F1F432926DDE600F36B87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94F1F432926DDE600F36B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94F1F422926DDE600F36B87 /* AdvancedCalendar.app */,
+				C94F1F5B2926DDE800F36B87 /* AdvancedCalendarTests.xctest */,
+				C94F1F652926DDE800F36B87 /* AdvancedCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94F1F442926DDE600F36B87 /* AdvancedCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				C9C52561292742EA00B86CF4 /* SceneDelegate.swift */,
+				C9C525202927418500B86CF4 /* AppDelegate.swift */,
+				C9C524EF29273FF200B86CF4 /* Main.storyboard */,
+				C9C524E029273FF200B86CF4 /* Source */,
+				C94F1F512926DDE700F36B87 /* Assets.xcassets */,
+				C94F1F532926DDE700F36B87 /* LaunchScreen.storyboard */,
+				C988572D292A094400427B64 /* GoogleService-Info.plist */,
+				C94F1F562926DDE700F36B87 /* Info.plist */,
+				C94F1F4E2926DDE600F36B87 /* AdvancedCalendar.xcdatamodeld */,
+			);
+			path = AdvancedCalendar;
+			sourceTree = "<group>";
+		};
+		C94F1F5E2926DDE800F36B87 /* AdvancedCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C94F1F5F2926DDE800F36B87 /* AdvancedCalendarTests.swift */,
+			);
+			path = AdvancedCalendarTests;
+			sourceTree = "<group>";
+		};
+		C94F1F682926DDE800F36B87 /* AdvancedCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C94F1F692926DDE800F36B87 /* AdvancedCalendarUITests.swift */,
+				C94F1F6B2926DDE800F36B87 /* AdvancedCalendarUITestsLaunchTests.swift */,
+			);
+			path = AdvancedCalendarUITests;
+			sourceTree = "<group>";
+		};
+		C9C524E029273FF200B86CF4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C9C525A92928E43D00B86CF4 /* EventDetailVC.swift */,
+				C9C525A62928D4FF00B86CF4 /* Models */,
+				C9C524E829273FF200B86CF4 /* EventCell.swift */,
+				C9C524E929273FF200B86CF4 /* EventCell.xib */,
+				C9C5250029273FF200B86CF4 /* DefaultWeekView.swift */,
+				C9C524EA29273FF200B86CF4 /* DefaultViewModel.swift */,
+				C9C524EB29273FF200B86CF4 /* DefaultViewController.swift */,
+				C9C524F729273FF200B86CF4 /* DefaultEvent.swift */,
+				C9C524E129273FF200B86CF4 /* LongPressViews */,
+				C9C524F129273FF200B86CF4 /* CustomViews */,
+				C9C524EC29273FF200B86CF4 /* Utils */,
+				C9C524F829273FF200B86CF4 /* ExampleOptionsViewController */,
+				C988573C292A266200427B64 /* RootNavigationVC.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C9C524E129273FF200B86CF4 /* LongPressViews */ = {
+			isa = PBXGroup;
+			children = (
+				C9C524E229273FF200B86CF4 /* LongPressWeekView.swift */,
+				C9C524E329273FF200B86CF4 /* LongPressEventCell.xib */,
+				C9C524E429273FF200B86CF4 /* LongPressEventCell.swift */,
+				C9C524E529273FF200B86CF4 /* AllDayViewModel.swift */,
+				C9C524E629273FF200B86CF4 /* LongPressViewController.swift */,
+				C9C524E729273FF200B86CF4 /* AllDayEvent.swift */,
+			);
+			path = LongPressViews;
+			sourceTree = "<group>";
+		};
+		C9C524EC29273FF200B86CF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C9C524ED29273FF200B86CF4 /* Extensions.swift */,
+				C9C524EE29273FF200B86CF4 /* ToastUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C9C524F129273FF200B86CF4 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C9C524F229273FF200B86CF4 /* HourRowHeader.swift */,
+				C9C524F329273FF200B86CF4 /* CurrentTimelineAll.swift */,
+				C9C524F429273FF200B86CF4 /* CustomWeekView.swift */,
+				C9C524F529273FF200B86CF4 /* BlackGridLine.swift */,
+				C9C524F629273FF200B86CF4 /* CustomViewController.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C9C524F829273FF200B86CF4 /* ExampleOptionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9C524F929273FF200B86CF4 /* OptionsViewModel.swift */,
+				C9C524FA29273FF200B86CF4 /* ExampleOptionsViewController.swift */,
+				C9C524FB29273FF200B86CF4 /* OptionsTableViewCell.swift */,
+				C9C524FC29273FF200B86CF4 /* OptionsTableViewCell.xib */,
+				C9C524FD29273FF200B86CF4 /* ExpandableHeaderView.swift */,
+				C9C524FE29273FF200B86CF4 /* ExpandableHeaderView.xib */,
+			);
+			path = ExampleOptionsViewController;
+			sourceTree = "<group>";
+		};
+		C9C525A62928D4FF00B86CF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9C525A72928D51500B86CF4 /* Course.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94F1F412926DDE600F36B87 /* AdvancedCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94F1F6F2926DDE800F36B87 /* Build configuration list for PBXNativeTarget "AdvancedCalendar" */;
+			buildPhases = (
+				C94F1F3E2926DDE600F36B87 /* Sources */,
+				C94F1F3F2926DDE600F36B87 /* Frameworks */,
+				C94F1F402926DDE600F36B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedCalendar;
+			packageProductDependencies = (
+				C98857072929DA4B00427B64 /* JZCalendarWeekView */,
+				C9885776292D35CB00427B64 /* FirebaseAnalytics */,
+				C9885778292D35CB00427B64 /* FirebaseAnalyticsOnDeviceConversion */,
+				C988577A292D35CB00427B64 /* FirebaseAnalyticsSwift */,
+				C988577C292D35CB00427B64 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				C988577E292D35CB00427B64 /* FirebaseAppCheck */,
+				C9885780292D35CB00427B64 /* FirebaseAppDistribution-Beta */,
+				C9885782292D35CB00427B64 /* FirebaseAuth */,
+				C9885784292D35CB00427B64 /* FirebaseAuthCombine-Community */,
+				C9885786292D35CB00427B64 /* FirebaseCrashlytics */,
+				C9885788292D35CB00427B64 /* FirebaseDatabase */,
+				C988578A292D35CB00427B64 /* FirebaseDatabaseSwift */,
+				C988578C292D35CB00427B64 /* FirebaseDynamicLinks */,
+				C988578E292D35CB00427B64 /* FirebaseFirestore */,
+				C9885790292D35CB00427B64 /* FirebaseFirestoreCombine-Community */,
+				C9885792292D35CB00427B64 /* FirebaseFirestoreSwift */,
+				C9885794292D35CB00427B64 /* FirebaseFunctions */,
+				C9885796292D35CB00427B64 /* FirebaseFunctionsCombine-Community */,
+				C9885798292D35CB00427B64 /* FirebaseInAppMessaging-Beta */,
+				C988579A292D35CB00427B64 /* FirebaseInAppMessagingSwift-Beta */,
+				C988579C292D35CB00427B64 /* FirebaseInstallations */,
+				C988579E292D35CB00427B64 /* FirebaseMLModelDownloader */,
+				C98857A0292D35CB00427B64 /* FirebaseMessaging */,
+				C98857A2292D35CB00427B64 /* FirebasePerformance */,
+				C98857A4292D35CB00427B64 /* FirebaseRemoteConfig */,
+				C98857A6292D35CB00427B64 /* FirebaseRemoteConfigSwift */,
+				C98857A8292D35CB00427B64 /* FirebaseStorage */,
+				C98857AA292D35CB00427B64 /* FirebaseStorageCombine-Community */,
+			);
+			productName = AdvancedCalendar;
+			productReference = C94F1F422926DDE600F36B87 /* AdvancedCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C94F1F5A2926DDE800F36B87 /* AdvancedCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94F1F722926DDE800F36B87 /* Build configuration list for PBXNativeTarget "AdvancedCalendarTests" */;
+			buildPhases = (
+				C94F1F572926DDE800F36B87 /* Sources */,
+				C94F1F582926DDE800F36B87 /* Frameworks */,
+				C94F1F592926DDE800F36B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94F1F5D2926DDE800F36B87 /* PBXTargetDependency */,
+			);
+			name = AdvancedCalendarTests;
+			productName = AdvancedCalendarTests;
+			productReference = C94F1F5B2926DDE800F36B87 /* AdvancedCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C94F1F642926DDE800F36B87 /* AdvancedCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94F1F752926DDE800F36B87 /* Build configuration list for PBXNativeTarget "AdvancedCalendarUITests" */;
+			buildPhases = (
+				C94F1F612926DDE800F36B87 /* Sources */,
+				C94F1F622926DDE800F36B87 /* Frameworks */,
+				C94F1F632926DDE800F36B87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C94F1F672926DDE800F36B87 /* PBXTargetDependency */,
+			);
+			name = AdvancedCalendarUITests;
+			productName = AdvancedCalendarUITests;
+			productReference = C94F1F652926DDE800F36B87 /* AdvancedCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94F1F3A2926DDE600F36B87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C94F1F412926DDE600F36B87 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C94F1F5A2926DDE800F36B87 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C94F1F412926DDE600F36B87;
+					};
+					C94F1F642926DDE800F36B87 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C94F1F412926DDE600F36B87;
+					};
+				};
+			};
+			buildConfigurationList = C94F1F3D2926DDE600F36B87 /* Build configuration list for PBXProject "AdvancedCalendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C94F1F392926DDE600F36B87;
+			packageReferences = (
+				C98857062929DA4B00427B64 /* XCRemoteSwiftPackageReference "jzAdvancedCalendarView" */,
+				C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C94F1F432926DDE600F36B87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94F1F412926DDE600F36B87 /* AdvancedCalendar */,
+				C94F1F5A2926DDE800F36B87 /* AdvancedCalendarTests */,
+				C94F1F642926DDE800F36B87 /* AdvancedCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94F1F402926DDE600F36B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C5250829273FF200B86CF4 /* EventCell.xib in Resources */,
+				C988572E292A094400427B64 /* GoogleService-Info.plist in Resources */,
+				C9C5250D29273FF200B86CF4 /* Main.storyboard in Resources */,
+				C9C5251729273FF200B86CF4 /* OptionsTableViewCell.xib in Resources */,
+				C94F1F552926DDE700F36B87 /* LaunchScreen.storyboard in Resources */,
+				C94F1F522926DDE700F36B87 /* Assets.xcassets in Resources */,
+				C9C5250229273FF200B86CF4 /* LongPressEventCell.xib in Resources */,
+				C9C5251929273FF200B86CF4 /* ExpandableHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F1F592926DDE800F36B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F1F632926DDE800F36B87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94F1F3E2926DDE600F36B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C525212927418500B86CF4 /* AppDelegate.swift in Sources */,
+				C9C5251629273FF200B86CF4 /* OptionsTableViewCell.swift in Sources */,
+				C9C5251829273FF200B86CF4 /* ExpandableHeaderView.swift in Sources */,
+				C9C5250129273FF200B86CF4 /* LongPressWeekView.swift in Sources */,
+				C9C5251B29273FF200B86CF4 /* DefaultWeekView.swift in Sources */,
+				C9C5250629273FF200B86CF4 /* AllDayEvent.swift in Sources */,
+				C988573D292A266200427B64 /* RootNavigationVC.swift in Sources */,
+				C9C5250929273FF200B86CF4 /* DefaultViewModel.swift in Sources */,
+				C9C5250C29273FF200B86CF4 /* ToastUtil.swift in Sources */,
+				C9C5251329273FF200B86CF4 /* DefaultEvent.swift in Sources */,
+				C9C5250329273FF200B86CF4 /* LongPressEventCell.swift in Sources */,
+				C9C5250F29273FF200B86CF4 /* CurrentTimelineAll.swift in Sources */,
+				C9C5251529273FF200B86CF4 /* ExampleOptionsViewController.swift in Sources */,
+				C9C5251429273FF200B86CF4 /* OptionsViewModel.swift in Sources */,
+				C9C5250E29273FF200B86CF4 /* HourRowHeader.swift in Sources */,
+				C9C5251029273FF200B86CF4 /* CustomWeekView.swift in Sources */,
+				C94F1F502926DDE600F36B87 /* AdvancedCalendar.xcdatamodeld in Sources */,
+				C9C525AA2928E43D00B86CF4 /* EventDetailVC.swift in Sources */,
+				C9C5250B29273FF200B86CF4 /* Extensions.swift in Sources */,
+				C9C5250429273FF200B86CF4 /* AllDayViewModel.swift in Sources */,
+				C9C5250A29273FF200B86CF4 /* DefaultViewController.swift in Sources */,
+				C9C5250529273FF200B86CF4 /* LongPressViewController.swift in Sources */,
+				C9C5250729273FF200B86CF4 /* EventCell.swift in Sources */,
+				C9C5251129273FF200B86CF4 /* BlackGridLine.swift in Sources */,
+				C9C525A82928D51500B86CF4 /* Course.swift in Sources */,
+				C9C5251229273FF200B86CF4 /* CustomViewController.swift in Sources */,
+				C9C52562292742EA00B86CF4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F1F572926DDE800F36B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F1F602926DDE800F36B87 /* AdvancedCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94F1F612926DDE800F36B87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94F1F6C2926DDE800F36B87 /* AdvancedCalendarUITestsLaunchTests.swift in Sources */,
+				C94F1F6A2926DDE800F36B87 /* AdvancedCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C94F1F5D2926DDE800F36B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94F1F412926DDE600F36B87 /* AdvancedCalendar */;
+			targetProxy = C94F1F5C2926DDE800F36B87 /* PBXContainerItemProxy */;
+		};
+		C94F1F672926DDE800F36B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C94F1F412926DDE600F36B87 /* AdvancedCalendar */;
+			targetProxy = C94F1F662926DDE800F36B87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C94F1F532926DDE700F36B87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94F1F542926DDE700F36B87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C524EF29273FF200B86CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C524F029273FF200B86CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C94F1F6D2926DDE800F36B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C94F1F6E2926DDE800F36B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C94F1F702926DDE800F36B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SD8VBJ3XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdvancedCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiagao.AdvancedCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C94F1F712926DDE800F36B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SD8VBJ3XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdvancedCalendar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiagao.AdvancedCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C94F1F732926DDE800F36B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SD8VBJ3XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiagao.AdvancedCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedCalendar";
+			};
+			name = Debug;
+		};
+		C94F1F742926DDE800F36B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SD8VBJ3XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiagao.AdvancedCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedCalendar";
+			};
+			name = Release;
+		};
+		C94F1F762926DDE800F36B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SD8VBJ3XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiagao.AdvancedCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedCalendar;
+			};
+			name = Debug;
+		};
+		C94F1F772926DDE800F36B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SD8VBJ3XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiagao.AdvancedCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94F1F3D2926DDE600F36B87 /* Build configuration list for PBXProject "AdvancedCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F1F6D2926DDE800F36B87 /* Debug */,
+				C94F1F6E2926DDE800F36B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94F1F6F2926DDE800F36B87 /* Build configuration list for PBXNativeTarget "AdvancedCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F1F702926DDE800F36B87 /* Debug */,
+				C94F1F712926DDE800F36B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94F1F722926DDE800F36B87 /* Build configuration list for PBXNativeTarget "AdvancedCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F1F732926DDE800F36B87 /* Debug */,
+				C94F1F742926DDE800F36B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94F1F752926DDE800F36B87 /* Build configuration list for PBXNativeTarget "AdvancedCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94F1F762926DDE800F36B87 /* Debug */,
+				C94F1F772926DDE800F36B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C98857062929DA4B00427B64 /* XCRemoteSwiftPackageReference "jzAdvancedCalendarView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kaiagaoqy/jzAdvancedCalendarView.git";
+			requirement = {
+				branch = kaia;
+				kind = branch;
+			};
+		};
+		C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C98857072929DA4B00427B64 /* JZCalendarWeekView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C98857062929DA4B00427B64 /* XCRemoteSwiftPackageReference "jzAdvancedCalendarView" */;
+			productName = JZCalendarWeekView;
+		};
+		C9885776292D35CB00427B64 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C9885778292D35CB00427B64 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		C988577A292D35CB00427B64 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		C988577C292D35CB00427B64 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		C988577E292D35CB00427B64 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		C9885780292D35CB00427B64 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		C9885782292D35CB00427B64 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C9885784292D35CB00427B64 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C9885786292D35CB00427B64 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C9885788292D35CB00427B64 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C988578A292D35CB00427B64 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		C988578C292D35CB00427B64 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		C988578E292D35CB00427B64 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C9885790292D35CB00427B64 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C9885792292D35CB00427B64 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C9885794292D35CB00427B64 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C9885796292D35CB00427B64 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		C9885798292D35CB00427B64 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		C988579A292D35CB00427B64 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		C988579C292D35CB00427B64 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		C988579E292D35CB00427B64 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		C98857A0292D35CB00427B64 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		C98857A2292D35CB00427B64 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		C98857A4292D35CB00427B64 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		C98857A6292D35CB00427B64 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		C98857A8292D35CB00427B64 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C98857AA292D35CB00427B64 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9885775292D35CB00427B64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C94F1F4E2926DDE600F36B87 /* AdvancedCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C94F1F4F2926DDE600F36B87 /* AdvancedCalendar.xcdatamodel */,
+			);
+			currentVersion = C94F1F4F2926DDE600F36B87 /* AdvancedCalendar.xcdatamodel */;
+			path = AdvancedCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C94F1F3A2926DDE600F36B87 /* Project object */;
+}
