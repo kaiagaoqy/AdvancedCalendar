@@ -42,11 +42,7 @@ class EventDetailVC: UIViewController {
         }
     }
     
-//    func timeFormat(date:String, time:Double)->String{
-//        let startHour:Int = Int(time)
-//        let startMin:Int = Int((time-Double(startHour))*60)
-//        return event.date + "--" + String(startHour) + ":" + String(startMin)
-//    }
+
     
     @IBAction func EditEvent(_ sender: UIButton) {
         self.dismiss(animated: true)
