@@ -25,14 +25,16 @@ class ExampleOptionsViewController: UIViewController {
         setupBasic()
         setupTableView()
     }
-
+    
+    /// Set up navigation bar
     func setupBasic() {
         self.automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = UIColor.white
         navigationItem.title = "Options"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(onBtnDoneTapped))
     }
-
+    
+    /// Set up Table view layout and register table view cells
     func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -61,6 +63,8 @@ class ExampleOptionsViewController: UIViewController {
             optionalHourGridDivision = dataList[4].selectedValue as? JZHourGridDivision
             scrollableRange = (dataList[5].selectedValue as? Date, dataList[6].selectedValue as? Date)
         }
+        
+        // guard requires that we exit the current scope when it’s used,
         guard
             let viewType = dataList[0].selectedValue as? ViewType,
             let scrollType = optionalScrollType,
