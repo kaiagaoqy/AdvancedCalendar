@@ -12,12 +12,12 @@ import Foundation
 class AllDayEvent: JZAllDayEvent {
 
     var location: String
-//    var title: String
+    var note: String
     
 
-    init(id: String, title: String, startDate: Date, endDate: Date, location: String, isAllDay: Bool,completed:Bool) {
+    init(id: String, title: String, startDate: Date, endDate: Date, location: String, isAllDay: Bool,completed:Bool,note:String) {
         self.location = location
-//        self.title = title
+        self.note = note
         
 
         // If you want to have you custom uid, you can set the parent class's id with your uid or UUID().uuidString (In this case, we just use the base class id)
@@ -27,6 +27,6 @@ class AllDayEvent: JZAllDayEvent {
  
 
     override func copy(with zone: NSZone?) -> Any {
-        return AllDayEvent(id: id, title: title, startDate: startDate, endDate: endDate, location: location, isAllDay: isAllDay,completed: completed)
+        return AllDayEvent(id: id, title: title, startDate: startDate, endDate: endDate, location: location, isAllDay: isAllDay,completed: completed, note: note)
     }
 }

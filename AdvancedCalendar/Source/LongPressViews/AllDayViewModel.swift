@@ -66,7 +66,7 @@ class AllDayViewModel {
             "startDate": event.startDate,
             "location": event.location,
             "endDate": event.endDate,
-//            "notes":notes,
+            "note":event.note,
             "completed":event.completed,
             "isAllDay":event.isAllDay
         ]) {
@@ -86,7 +86,7 @@ class AllDayViewModel {
             if let doc = querySnapshot {
                 for document in doc.documents {
                     let data = document.data()
-                    let event:AllDayEvent = AllDayEvent(id: data["id"] as! String, title: data["title"] as! String, startDate: (data["startDate"] as! Timestamp).dateValue(), endDate: (data["endDate"] as! Timestamp).dateValue(), location: data["location"] as! String, isAllDay: data["isAllDay"] as! Bool, completed: data["completed"] as! Bool)
+                    let event:AllDayEvent = AllDayEvent(id: data["id"] as! String, title: data["title"] as! String, startDate: (data["startDate"] as! Timestamp).dateValue(), endDate: (data["endDate"] as! Timestamp).dateValue(), location: data["location"] as! String, isAllDay: data["isAllDay"] as! Bool, completed: data["completed"] as! Bool, note: data["note"] as! String)
                     myevents.append(event)
                     
                 }

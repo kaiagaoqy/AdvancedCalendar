@@ -43,6 +43,10 @@
 		C98857A7292D35CB00427B64 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A6292D35CB00427B64 /* FirebaseRemoteConfigSwift */; };
 		C98857A9292D35CB00427B64 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C98857A8292D35CB00427B64 /* FirebaseStorage */; };
 		C98857AB292D35CB00427B64 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C98857AA292D35CB00427B64 /* FirebaseStorageCombine-Community */; };
+		C9BB377B2931255400D8309E /* EditEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB377A2931255400D8309E /* EditEventViewController.swift */; };
+		C9BB377D2933C41000D8309E /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB377C2933C41000D8309E /* NoteTableViewCell.swift */; };
+		C9BB37812933C6CD00D8309E /* EditDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB37802933C6CD00D8309E /* EditDetailTableViewCell.swift */; };
+		C9BB37832934201900D8309E /* checkBtnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB37822934201900D8309E /* checkBtnTableViewCell.swift */; };
 		C9C5250129273FF200B86CF4 /* LongPressWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E229273FF200B86CF4 /* LongPressWeekView.swift */; };
 		C9C5250229273FF200B86CF4 /* LongPressEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C524E329273FF200B86CF4 /* LongPressEventCell.xib */; };
 		C9C5250329273FF200B86CF4 /* LongPressEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C524E429273FF200B86CF4 /* LongPressEventCell.swift */; };
@@ -105,6 +109,10 @@
 		C94F1F6B2926DDE800F36B87 /* AdvancedCalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C988572D292A094400427B64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C988573C292A266200427B64 /* RootNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationVC.swift; sourceTree = "<group>"; };
+		C9BB377A2931255400D8309E /* EditEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventViewController.swift; sourceTree = "<group>"; };
+		C9BB377C2933C41000D8309E /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		C9BB37802933C6CD00D8309E /* EditDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDetailTableViewCell.swift; sourceTree = "<group>"; };
+		C9BB37822934201900D8309E /* checkBtnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkBtnTableViewCell.swift; sourceTree = "<group>"; };
 		C9C524E229273FF200B86CF4 /* LongPressWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressWeekView.swift; sourceTree = "<group>"; };
 		C9C524E329273FF200B86CF4 /* LongPressEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongPressEventCell.xib; sourceTree = "<group>"; };
 		C9C524E429273FF200B86CF4 /* LongPressEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressEventCell.swift; sourceTree = "<group>"; };
@@ -267,6 +275,10 @@
 			isa = PBXGroup;
 			children = (
 				C9C524E229273FF200B86CF4 /* LongPressWeekView.swift */,
+				C9BB377A2931255400D8309E /* EditEventViewController.swift */,
+				C9BB377C2933C41000D8309E /* NoteTableViewCell.swift */,
+				C9BB37802933C6CD00D8309E /* EditDetailTableViewCell.swift */,
+				C9BB37822934201900D8309E /* checkBtnTableViewCell.swift */,
 				C9C524E329273FF200B86CF4 /* LongPressEventCell.xib */,
 				C9C524E429273FF200B86CF4 /* LongPressEventCell.swift */,
 				C9C524E529273FF200B86CF4 /* AllDayViewModel.swift */,
@@ -492,13 +504,16 @@
 				C9C5251629273FF200B86CF4 /* OptionsTableViewCell.swift in Sources */,
 				C9C5251829273FF200B86CF4 /* ExpandableHeaderView.swift in Sources */,
 				C9C5250129273FF200B86CF4 /* LongPressWeekView.swift in Sources */,
+				C9BB377D2933C41000D8309E /* NoteTableViewCell.swift in Sources */,
 				C9C5251B29273FF200B86CF4 /* DefaultWeekView.swift in Sources */,
 				C9C5250629273FF200B86CF4 /* AllDayEvent.swift in Sources */,
 				C988573D292A266200427B64 /* RootNavigationVC.swift in Sources */,
 				C9C5250929273FF200B86CF4 /* DefaultViewModel.swift in Sources */,
 				C9C5250C29273FF200B86CF4 /* ToastUtil.swift in Sources */,
 				C9C5251329273FF200B86CF4 /* DefaultEvent.swift in Sources */,
+				C9BB37832934201900D8309E /* checkBtnTableViewCell.swift in Sources */,
 				C9C5250329273FF200B86CF4 /* LongPressEventCell.swift in Sources */,
+				C9BB37812933C6CD00D8309E /* EditDetailTableViewCell.swift in Sources */,
 				C9C5250F29273FF200B86CF4 /* CurrentTimelineAll.swift in Sources */,
 				C9C5251529273FF200B86CF4 /* ExampleOptionsViewController.swift in Sources */,
 				C9C5251429273FF200B86CF4 /* OptionsViewModel.swift in Sources */,
@@ -511,6 +526,7 @@
 				C9C5250A29273FF200B86CF4 /* DefaultViewController.swift in Sources */,
 				C9C5250529273FF200B86CF4 /* LongPressViewController.swift in Sources */,
 				C9C5250729273FF200B86CF4 /* EventCell.swift in Sources */,
+				C9BB377B2931255400D8309E /* EditEventViewController.swift in Sources */,
 				C9C5251129273FF200B86CF4 /* BlackGridLine.swift in Sources */,
 				C9C525A82928D51500B86CF4 /* Course.swift in Sources */,
 				C9C5251229273FF200B86CF4 /* CustomViewController.swift in Sources */,

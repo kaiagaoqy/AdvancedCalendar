@@ -14,7 +14,7 @@ class EventDetailVC: UIViewController {
     private let secondDate = Date().add(component: .day, value: 1)
     private let thirdDate = Date().add(component: .day, value: 2)
     
-    lazy var event = AllDayEvent(id: "0", title: "One", startDate: firstDate, endDate: firstDate.add(component: .hour, value: 1), location: "Melbourne", isAllDay: false,completed: false)
+    lazy var event = AllDayEvent(id: "0", title: "One", startDate: firstDate, endDate: firstDate.add(component: .hour, value: 1), location: "Melbourne", isAllDay: false,completed: false,note:"None")
 
   
     @IBOutlet weak var name: UILabel!
@@ -35,7 +35,7 @@ class EventDetailVC: UIViewController {
         startDate.text = event.startDate.formatted()
         endDate.text = event.endDate.formatted()
         
-        detail.text = "default notes"
+        detail.text = event.note
         if event.completed {
             name.textColor = .gray
             name.attributedText = NSAttributedString(string: event.title, attributes: [NSAttributedString.Key.strikethroughStyle: 1])
@@ -45,7 +45,19 @@ class EventDetailVC: UIViewController {
 
     
     @IBAction func EditEvent(_ sender: UIButton) {
-        self.dismiss(animated: true)
+        let controller = EditEventViewController()
+        controller.cell = self.event
+        guard let currentscene = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate else { return }
+        guard let currentWindow = currentscene.window else { return }
+
+        self.dismiss(animated: true){
+
+            
+            let navigationVC = UINavigationController(rootViewController: controller)
+            (UIApplication.shared.keyWindow?.rootViewController as? UINavigationController)?.viewControllers[0].present(navigationVC, animated: true, completion: nil)
+            
+            
+        }
     }
     @IBAction func deleteEvent(_ sender: UIButton) {
         let curEvent = db.collection("scheduleEvents").document(event.id)
@@ -68,12 +80,7 @@ class EventDetailVC: UIViewController {
         
     }
 
-    @IBAction func editEvent(_ sender: UIButton) {
-        print("edit")
-//        ScheduleVC.showEventViewController()
-        _ = navigationController?.popViewController(animated: true)
-        
-    }
+
     
     @IBAction func markComplete(_ sender: UIButton) {
         let curEvent = db.collection("scheduleEvents").document(event.id)
@@ -99,7 +106,5 @@ class EventDetailVC: UIViewController {
         self.dismiss(animated: true)
     }
     
-//    @IBAction func back(_ sender: UIButton) {
-//        self.dismiss(animated: true)
-//    }
+
 }
